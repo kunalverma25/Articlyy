@@ -9,11 +9,15 @@
 
 **Language/Version - Swift 4.1**
 
+**Native Support - Universal (iPhone/iPad)**
+
+**Orientation Support - Portrait**
+
 ---
 
 
 ## Change Articles Count
 ---
 
-**You’ll need to change the "articleValue" from AppConstants.swift file.**
+**Youâ€™ll need to change the "articleValue" from AppConstants.swift file.**
 
