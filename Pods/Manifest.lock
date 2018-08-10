@@ -1,0 +1,24 @@
+PODS:
+  - Kingfisher (4.8.1)
+  - KVNProgress (2.3.1)
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - KVNProgress
+  - Toaster
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - KVNProgress
+    - Toaster
+
+SPEC CHECKSUMS:
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: 3924f4020e227721053a0d158a62464ef4ab36af
+
+COCOAPODS: 1.5.3

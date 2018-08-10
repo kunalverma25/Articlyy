@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupBaseUIStyle()
         return true
     }
 
@@ -39,6 +39,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func setupBaseUIStyle() {
+        let navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.setBackgroundImage(UIImage(), for: .default)
+        navigationBarAppearace.shadowImage = UIImage()
+        navigationBarAppearace.tintColor = UIColor.white
+        //navigationBarAppearace.backIndicatorImage = UIImage(named: "back")
+        //navigationBarAppearace.backIndicatorTransitionMaskImage = UIImage(named: "back")
+        //UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(0, -80.0), for: .default)
+        navigationBarAppearace.isTranslucent = true
+        navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white, NSAttributedStringKey.font : UIFont(name: "Avenir-Book", size: 20)!]
+        UIApplication.shared.statusBarStyle = .lightContent
     }
 
 

@@ -1,0 +1,6 @@
+framework module Pods_Articlyy {
+  umbrella header "Pods-Articlyy-umbrella.h"
+
+  export *
+  module * { export * }
+}
