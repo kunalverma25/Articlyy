@@ -9,6 +9,6 @@
 
 ## Change Articles Count
 
-Youâ€™ll need to change the "articleValue" from AppConstants.swift file.
+**You’ll need to change the "articleValue" from AppConstants.swift file.**
 ---
 
