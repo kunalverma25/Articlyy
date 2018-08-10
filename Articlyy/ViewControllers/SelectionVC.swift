@@ -129,8 +129,7 @@ extension SelectionVC: UICollectionViewDataSource, UICollectionViewDelegate, Lik
         }
     }
     
-    
-    
+    // MARK: - LikeDislikeDelegate:
     func didLikeDislike(for cell: Int, like: Bool) {
         ArticlesViewModel.shared.likeUnlikeArticle(at: cell, liked: like)
         self.articlesCollection.reloadItems(at: [IndexPath(item: cell, section: 0)])
